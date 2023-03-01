@@ -1,10 +1,10 @@
 public class B {
 	
 	void m1() {
-		int sum = 0;
-		for (int i = 0; i < 10; i++) {
-			sum += i;
+		int zbir =0;
+		for (int i=1;i<=10;i++){
+			zbir+=i;
 		}
-		System.out.println("SUM: " + sum);
+		System.out.println(zbir);
 	}
 }
